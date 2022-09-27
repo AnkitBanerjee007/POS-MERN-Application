@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+/* ItemPage */
+.item-button button{
+    margin-top: 20px;
+    width: 80px;
+    padding: 5px;
+    background-color: #4891ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.item-button button:hover{
+    background-color: #fff;
+    color: #4891ff;
+    border: 1px solid #4891ff;
+
+
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.spinner-border {
+    width: 100px;
+    height: 100px;
+}
+
+.category {
+     border: 1px solid #555;
+     border-radius: 20px;
+     margin-left: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     text-align: center;
+     cursor: pointer;
+}
+.category p{
+   margin: 0;
+}
+
+.category_active{
+    background-color: #002140;
+    color: #fff;
+}
+
+
+/* ---------------- Register Page ------------ */
+.register {
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+   
+    
+}
+
+.register input{
+    width: 400px;
+    
+    
+}
+
+.register-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: #001529; */
+    /* border: 2px solid black; */
+    padding: 20px;
+    /* color: white; */
+}
+
+.register-form h3{
+    background-color: #001529;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-radius: 20px; */
+    width: 400px;
+    text-align: center;
+
+}
+.register-form h5{
+    font-weight: 800;
+}
+
+
+#invoice-POS {
+    box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+    padding: 4mm;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+  }
+
+
+#top,
+  #mid,
+  #bot {
+    /* Targets all id with 'col-' */
+    border-bottom: 1px solid #eee;
+  }
+  
+  #top {
+    min-height: 100px;
+  }
+  
+  #bot {
+    min-height: 50px;
+  }
+  
+  #top .logo {
+    /* //float: left; */
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+    
+    background-size: 50px 50px;
+  }
+  .clientlogo {
+    float: left;
+    height: 60px;
+    width: 60px;
+    
+    background-size: 60px 60px;
+    border-radius: 50px;
+  }
+  .info {
+    display: block;
+    /* //float:left; */
+    margin-left: 0;
+  }
+  .title {
+    float: right;
+  }
+  .title p {
+    text-align: right;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  /* td {
+      //padding: 5px 0 5px 15px;
+      //border: 1px solid #EEE
+    } */
+  .tabletitle {
+    /* //padding: 5px; */
+    font-size: 0.5em;
+    background: #fff;
+  }
+  .service {
+    border-bottom: 1px solid #eee;
+  }
+  .item {
+    width: 24mm;
+  }
+  .itemtext {
+    font-size: 0.5em;
+  }
+  
+  #legalcopy {
+    margin-top: 5mm;
+    font-size: 0.8rem;
+  }

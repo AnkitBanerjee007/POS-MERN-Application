@@ -1,0 +1,71 @@
+
+/* ///// */
+/* .ant-layout{
+  background-color: #002140; */
+  /* background: #001529;
+
+} */
+
+
+#components-layout-demo-side .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    
+  }
+  
+  .site-layout .site-layout-background {
+    /* background: #001529; */
+    background-color: #fff;
+  }
+
+  .site-layout-background {
+    height: 600px;
+    overflow: auto;
+  }
+
+  .ant-layout-header{
+    height: auto;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+.cart-item{
+  /* margin-left: 10px;
+   */
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* cursor: pointer; */
+  font-weight: 500;
+  /* line-height: 0; */
+}
+
+
+.number-cart {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  border: 1px solid #4891ff;
+  padding: 2px;
+  background: #4891ff;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+
+}
+.child {
+  display: inline-block;
+  margin: 10px;
+}
+  /* .ant-layout-footer{
+    background: #001529;
+  } */
